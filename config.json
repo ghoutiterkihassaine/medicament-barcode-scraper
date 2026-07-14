@@ -1,0 +1,19 @@
+{
+  "scrapers": {
+    "pharmnet": {
+      "enabled": true,
+      "url": "https://pharmnet-dz.com",
+      "timeout": 30,
+      "delay": 2
+    },
+    "dawa": {
+      "enabled": true,
+      "url": "https://medicamentdz.com",
+      "timeout": 30,
+      "delay": 2
+    }
+  },
+  "output": {
+    "directory": "./data/output"
+  }
+}
